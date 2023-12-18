@@ -101,6 +101,7 @@ python main_end2end.py --dataset_split_type direct --test_only_model_path <model
 ```
 
 ## 🏆 Fine-tuned Checkpoints
+We have provided our fine-tuned model checkpoints, as well as the log file generated during training.
 
 ### 1. Direct Setting
 | Model | Open | Binary | All | Checkpoint | Log |
