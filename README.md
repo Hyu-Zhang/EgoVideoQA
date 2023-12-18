@@ -101,19 +101,20 @@ python main_end2end.py --dataset_split_type direct --test_only_model_path <model
 ```
 
 ## 🏆 Fine-tuned Checkpoints
- 
+
+### 1. Direct Setting
 | Model | Open | Binary | All | Checkpoint | Log |
 | :------: | :------: | :------: | :------: | :------: | :------: |
-| Direct Settings ||||||
 | [EgoVLP](https://github.com/showlab/EgoVLP) | 31.69 | 71.26 | 42.51 | [Link](https://drive.google.com/file/d/1-cP3Gcg0NGDcMZalgJ_615BQdbFIbcj7/view?usp=sharing) | - |
 | [EgoVLPv2](https://github.com/facebookresearch/EgoVLPv2/tree/main/EgoTaskQA) | 35.56 | 75.60 | 46.26 | [Link](https://www.cis.jhu.edu/~shraman/EgoVLPv2/ckpts/EgoTaskQA_Finetuned/EgoTaskQA_finetune_direct.tar) | - |
 | Ours | 38.95 | 75.86 | 48.69 | [Link]() | [Link]() |
-| Indirect Settings |
+
+### 2. Indirect Setting
+| Model | Open | Binary | All | Checkpoint | Log |
+| :------: | :------: | :------: | :------: | :------: | :------: |
 | [EgoVLP](https://github.com/showlab/EgoVLP) | 27.04 | 55.28 | 38.69 | [Link](https://drive.google.com/file/d/1-cP3Gcg0NGDcMZalgJ_615BQdbFIbcj7/view?usp=sharing) | - |
 | [EgoVLPv2](https://github.com/facebookresearch/EgoVLPv2/tree/main/EgoTaskQA) | 29.14 | 59.68 | 42.28 | [Link](https://www.cis.jhu.edu/~shraman/EgoVLPv2/ckpts/EgoTaskQA_Finetuned/EgoTaskQA_finetune_indirect.tar) | - |
 | Ours | 32.44 | 63.02 | 45.40 | [Link]() | [Link]() |
-
-
 
 ## 🎓 Citation
 
