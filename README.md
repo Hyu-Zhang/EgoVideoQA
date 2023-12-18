@@ -88,7 +88,11 @@ python main_end2end.py --dataset_split_type direct --model_name /userhome/pretra
 # indirect setting
 python main_end2end.py --dataset_split_type indirect --model_name /userhome/pretrain_model/EgoVLPv2.pth --per_gpu_batch_size 32 --num_frames_per_video 16 --frame_resolution 224 --lr 2e-4
 ```
-
+If the fine-tuning stops before completion, the process can be resumed from last saved checkpoint via ```--resume_finetune_model_path``` argument.
+```
+python main_end2end.py --dataset_split_type direct --model_name /userhome/pretrain_model/EgoVLPv2.pth --resume_finetune_model_path <last_saved_ckpt> --per_gpu_batch_size 32 --num_frames_per_video 16 --frame_resolution 224 --lr 2e-4
+```
+Note: We train 40 epochs for ~20 hours on 4 V100-32G cards, or ~13 hours at 8 V100-32G cards.
 
 ## Evaluation
 ## Fine-tuned Checkpoints
