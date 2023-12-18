@@ -42,50 +42,34 @@ The above files (```EgoVLPv2.pth```, ```reasoning_unique_cat.pth```, and ```jx_v
 Before the code is executed, make sure the file structure is as shown below.
 ```
 .
-├── EgoNCE_MLM_ITM_Config.yml
-├── EgoTaskQA_dataset.py
-├── base
-│   ├── __init__.py
-│   ├── base_dataset.py
-│   └── base_model.py
-├── configs
-│   ├── egotaskqa.json
-│   └── egotaskqa_f32.json
-├── logger
-│   ├── __init__.py
-│   ├── logger.py
-│   ├── logger_config.json
-│   └── visualization.py
-├── main_end2end.py
-├── model
-│   ├── hcrn.py
-│   ├── heads.py
-│   ├── model.py
-│   ├── patch_selection.py
-│   ├── roberta.py
-│   ├── uniformer.py
-│   ├── video_qa_model_linear_end2end.py
-│   └── video_transformer.py
-├── parse_config.py
-├── reasoning_type_unique_cat.py
-├── run.sh
-├── transforms.py
-└── utils
-    ├── __init__.py
-    ├── custom_transforms.py
-    ├── distributed.py
-    ├── html.py
-    ├── logging.py
-    ├── loss.py
-    ├── mAP.py
-    ├── nDCG.py
-    ├── util.py
-    ├── utils.py
-    ├── video.py
-    ├── video_chunk.py
-    ├── video_resize.py
-    ├── visualisation.py
-    └── visualizer.py
+├── Code
+│   ├── README.md
+│   ├── EgoNCE_MLM_ITM_Config.yml
+│   ├── EgoTaskQA_dataset.py
+│   ├── /base
+│   ├── /configs
+│   ├── /logger
+│   ├── main_end2end.py
+│   ├── /model
+│   ├── parse_config.py
+│   ├── reasoning_type_unique_cat.py
+│   ├── requirements.txt
+│   ├── run.sh
+│   ├── transforms.py
+│   └── /utils
+└── data
+    ├── /Data
+    │   ├── README.md
+    │   ├── /metadata
+    │   ├── /qa
+    │   │   ├── /direct
+    │   │   └── /indirect
+    │   ├── /qa_ori
+    │   │   ├── /direct
+    │   │   └── /indirect
+    │   ├── /raw
+    │   └── /templates
+    └── /qa_videos
 ```
 
 ## 🏋️‍️ Fine-tuning
