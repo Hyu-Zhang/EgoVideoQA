@@ -5,7 +5,7 @@
 > **TL;DR:** We unleash an egocentric video question answering model which exhibits strong performance on multiple public datasets.
 
 ## 📝 Preparation
-### Install Dependencies 
+### 1. Install Dependencies 
 Installs dependencies needed for the code to run.
 ```bash
 conda create -n egovqa python=3.9 pip
@@ -14,7 +14,7 @@ pip install torchvision==0.13.1+cu113 torchaudio==0.12.1 --extra-index-url https
 pip install -r requirements.txt
 ```
 
-### Data Download
+### 2. Data Download
 
 ### Pretrained Weights
 EgoVLPv2 https://www.cis.jhu.edu/~shraman/EgoVLPv2/ckpts/Pre-trained/EgoVLPv2.pth
