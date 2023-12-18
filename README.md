@@ -102,7 +102,6 @@ python main_end2end.py --dataset_split_type direct --test_only_model_path <model
 
 ## 🏆 Fine-tuned Checkpoints
 We have provided our fine-tuned model checkpoints, as well as the log file generated during training.
-
 ### 1. Direct Setting
 | Model | Open | Binary | All | Checkpoint | Log |
 | :------: | :------: | :------: | :------: | :------: | :------: |
@@ -118,31 +117,17 @@ We have provided our fine-tuned model checkpoints, as well as the log file gener
 | Ours | 32.44 | 63.02 | 45.40 | [Link]() | [Link]() |
 
 ## 🎓 Citation
+If our work is helpful to you, please cite our paper.
 
-If you find our work helps, please cite our paper.
+```
 
-```bibtex
-@article{kevin2022egovlp,
-  title={Egocentric Video-Language Pretraining},
-  author={Lin, Kevin Qinghong and Wang, Alex Jinpeng and Soldan, Mattia and Wray, Michael and Yan, Rui and Xu, Eric Zhongcong and Gao, Difei and Tu, Rongcheng and Zhao, Wenzhe and Kong, Weijie and others},
-  journal={arXiv preprint arXiv:2206.01670},
-  year={2022}
-}
 ```
 
 ## ✉️ Contact
-
-This repo is maintained by [Kevin](https://github.com/QinghongLin). Questions and discussions are welcome via `kevin.qh.lin@gmail.com`.
+Questions and discussions are welcome via `zhang.hy.2019@gmail.com`.
 
 ## 🙏 Acknowledgements
-
-This codebase is based on [Frozen](https://github.com/m-bain/frozen-in-time). 
-
-Thanks to [Alex](https://github.com/fingerrec) for the help with DDP and [Mattia](https://github.com/Soldelli) for the help with NLQ and MQ benchmarks.
-
-We thank the EgoTaskQA authors for releasing the dataset and baselines.
-EgoVLPv2
+We thank the authors from [EgoTaskQA](https://github.com/Buzz-Beater/EgoTaskQA/tree/main) for releasing the dataset and baselines. Also, we thank the authors from [EgoVLP](https://github.com/showlab/EgoVLP?tab=readme-ov-file) and [EgoVLPv2](https://github.com/facebookresearch/EgoVLPv2/tree/main) for the exploratory research, which is the beginning of our study.
 
 ## LICENSE
-
-MIT
+[MIT License]()
