@@ -18,7 +18,11 @@ If you encounter the following error ```ImportError: libGL.so.1: cannot open sha
 ### 2. Data Download
 You can get the dataset by following the data processing steps provided in the [EgoTaskQA](https://github.com/Buzz-Beater/EgoTaskQA/blob/main/baselines/README.md) work. Also, you can download our processed data directly by following the commands below.
 ```
-
+wget https://drive.google.com/file/d/1TMJ3qcMt-psDuevw4JaXd7pOzwmMk6wR/view?usp=sharing
+tar -zxvf Data.tar.gz && rm Data.tar.gz
+# The following links are provided by EgoVLPv2, see https://github.com/facebookresearch/EgoVLPv2/tree/main/EgoTaskQA
+wget https://www.cis.jhu.edu/~shraman/EgoVLPv2/datasets/EgoTaskQA/qa_videos.tgz
+tar -xvzf qa_videos.tgz && rm qa_videos.tgz
 ```
 
 ### Pretrained Weights
