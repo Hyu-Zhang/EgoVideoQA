@@ -16,6 +16,10 @@ pip install -r requirements.txt
 If you encounter the following error ```ImportError: libGL.so.1: cannot open shared object file: No such file or directory``` during execution , you can resolve it with this command ```apt-get update && apt-get install ffmpeg libsm6 libxext6  -y```. 
 
 ### 2. Data Download
+You can get the dataset by following the data processing steps provided in the [EgoTaskQA](https://github.com/Buzz-Beater/EgoTaskQA/blob/main/baselines/README.md) work. Also, you can download our processed data directly by following the commands below.
+```
+
+```
 
 ### Pretrained Weights
 EgoVLPv2 https://www.cis.jhu.edu/~shraman/EgoVLPv2/ckpts/Pre-trained/EgoVLPv2.pth
