@@ -42,7 +42,7 @@ The above files (```EgoVLPv2.pth```, ```reasoning_unique_cat.pth```, and ```jx_v
 Before the code is executed, make sure the file structure is as shown below.
 ```
 .
-├── Code
+├── code
 │   ├── README.md
 │   ├── EgoNCE_MLM_ITM_Config.yml
 │   ├── EgoTaskQA_dataset.py
