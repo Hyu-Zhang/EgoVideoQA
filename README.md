@@ -6,10 +6,14 @@
 
 ## 📝 Preparation
 ### Install Dependencies 
+Installs dependencies needed for the code to run.
 ```bash
-conda env create -f environment.yml
-conda activate egovqa
+conda create -n egovqa python=3.9 pip
+pip install torch-1.12.1+cu113-cp39-cp39-linux_x86_64.whl
+pip install torchvision==0.13.1+cu113 torchaudio==0.12.1 --extra-index-url https://download.pytorch.org/whl/cu113
+pip install -r requirements.txt
 ```
+
 ### Data Download
 
 ### Pretrained Weights
