@@ -8,7 +8,7 @@
 ### Install Dependencies 
 ```bash
 conda env create -f environment.yml
-source activate egovlp
+conda activate egovqa
 ```
 ### Data Download
 
