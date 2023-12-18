@@ -57,19 +57,24 @@ Before the code is executed, make sure the file structure is as shown below.
 │   ├── run.sh
 │   ├── transforms.py
 │   └── /utils
-└── data
-    ├── /Data
-    │   ├── README.md
-    │   ├── /metadata
-    │   ├── /qa
-    │   │   ├── /direct
-    │   │   └── /indirect
-    │   ├── /qa_ori
-    │   │   ├── /direct
-    │   │   └── /indirect
-    │   ├── /raw
-    │   └── /templates
-    └── /qa_videos
+├── data
+│   ├── /Data
+│   │   ├── README.md
+│   │   ├── /metadata
+│   │   ├── /qa
+│   │   │   ├── /direct
+│   │   │   └── /indirect
+│   │   ├── /qa_ori
+│   │   │   ├── /direct
+│   │   │   └── /indirect
+│   │   ├── /raw
+│   │   └── /templates
+│   └── /qa_videos
+└── pretrain_model
+    ├── EgoVLPv2.pth
+    ├── jx_vit_base_p16_224-80ecf9dd.pth
+    ├── reasoning_unique_cat.pth
+    └── /roberta-base
 ```
 
 ## 🏋️‍️ Fine-tuning
