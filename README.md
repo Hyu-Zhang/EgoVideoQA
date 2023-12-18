@@ -24,14 +24,16 @@ EgoVLPv2
 ## Evaluation
 ## 🔧 Fine-tuned Checkpoints
  
-| Model | Open | Binary | All | Checkpoint | Log 
+| Model | Open | Binary | All | Checkpoint | Log |
 | ------ | ------ | ------ | ------ | ------ | ------ |
-| EgoVLP | 31.69 | 71.26 | 42.51 | [Link]() | [Link]()
-| EgoVLPv2 | 35.56 | 75.60 | 46.26 | [Link]() | [Link]()
-| Ours | 38.95 | 75.86 | 48.69 | [Link]() | [Link]()
-| EgoVLP | 27.04 | 55.28 | 38.69 | [Link]() | [Link]()
-| EgoVLPv2 | 29.14 | 59.68 | 42.28 | [Link]() | [Link]()
-| Ours | 32.44 | 63.02 | 45.40 | [Link]() | [Link]()
+| Direct Settings |
+| EgoVLP | 31.69 | 71.26 | 42.51 | [Link]() | [Link]() |
+| EgoVLPv2 | 35.56 | 75.60 | 46.26 | [Link]() | [Link]() |
+| Ours | 38.95 | 75.86 | 48.69 | [Link]() | [Link]() |
+| Indirect Settings |
+| EgoVLP | 27.04 | 55.28 | 38.69 | [Link]() | [Link]() |
+| EgoVLPv2 | 29.14 | 59.68 | 42.28 | [Link]() | [Link]() |
+| Ours | 32.44 | 63.02 | 45.40 | [Link]() | [Link]() |
 
 
 
