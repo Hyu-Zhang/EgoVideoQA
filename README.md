@@ -2,7 +2,7 @@
 
 [arXiv]() | [Code]()
 
-> **TL;DR:** We pioneer Egocentric Video-Language Pretraining from pretraining dataset, model and development benchmark; the resulted pretrained model exhibits strong performance on five downstream tasks across three egocentric datasets.
+> **TL;DR:** We unleash an egocentric video question answering model which exhibits strong performance on multiple public datasets.
 
 ## 📝 Preparation
 ### Install Dependencies 
