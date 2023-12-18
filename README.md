@@ -25,7 +25,18 @@ wget https://www.cis.jhu.edu/~shraman/EgoVLPv2/datasets/EgoTaskQA/qa_videos.tgz
 tar -xvzf qa_videos.tgz && rm qa_videos.tgz
 ```
 The two folders ```/Data``` and ```/qa_videos``` are placed under the path ```/data```.
-### Pretrained Weights
+
+### 3. Pretrained Weights
+We use the EgoVLPv2 model weights, which are pre-trained on the [EgoClip](https://drive.google.com/file/d/1-aaDu_Gi-Y2sQI_2rsI2D1zvQBJnHpXl/view?usp=sharing) version of [Ego4D](https://ego4d-data.org/docs/start-here/#cli-download). And you can follow the commands below.
+```
+wget -c https://www.cis.jhu.edu/~shraman/EgoVLPv2/ckpts/Pre-trained/EgoVLPv2.pth
+wget https://www.cis.jhu.edu/~shraman/EgoVLPv2/datasets/EgoTaskQA/reasoning_unique_cat.pth
+# timm package
+wget https://github.com/rwightman/pytorch-image-models/releases/download/v0.1-vitjx/jx_vit_base_p16_224-80ecf9dd.pth
+# huggingface
+https://huggingface.co/roberta-base/tree/main
+```
+
 EgoVLPv2 https://www.cis.jhu.edu/~shraman/EgoVLPv2/ckpts/Pre-trained/EgoVLPv2.pth
 
 ### File Structure
