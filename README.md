@@ -94,11 +94,16 @@ python main_end2end.py --dataset_split_type direct --model_name /userhome/pretra
 ```
 Note: We train 40 epochs for ~20 hours on 4 V100-32G cards, or ~13 hours at 8 V100-32G cards.
 
-## Evaluation
-## Fine-tuned Checkpoints
+## 🎯 Evaluation
+To evaluate the fine-tuned checkpoints, you are able to add ```--test_only_model_path``` argument. In addition, we perform evaluation for each epoch in the generated file ```log.txt``` as well.
+```
+python main_end2end.py --dataset_split_type direct --test_only_model_path <model_best_ckpt> --per_gpu_batch_size 32 --num_frames_per_video 16 --frame_resolution 224 --lr 2e-4
+```
+
+## 🏆 Fine-tuned Checkpoints
  
 | Model | Open | Binary | All | Checkpoint | Log |
-| ------ | ------ | ------ | ------ | ------ | ------ |
+| :------: | :------: | :------: | :------: | :------: | :------: |
 | Direct Settings |
 | [EgoVLP](https://github.com/showlab/EgoVLP) | 31.69 | 71.26 | 42.51 | [Link](https://drive.google.com/file/d/1-cP3Gcg0NGDcMZalgJ_615BQdbFIbcj7/view?usp=sharing) | - |
 | [EgoVLPv2](https://github.com/facebookresearch/EgoVLPv2/tree/main/EgoTaskQA) | 35.56 | 75.60 | 46.26 | [Link](https://www.cis.jhu.edu/~shraman/EgoVLPv2/ckpts/EgoTaskQA_Finetuned/EgoTaskQA_finetune_direct.tar) | - |
