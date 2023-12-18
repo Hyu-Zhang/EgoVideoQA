@@ -38,7 +38,9 @@ https://huggingface.co/roberta-base/tree/main
 ```
 The above files (```EgoVLPv2.pth```, ```reasoning_unique_cat.pth```, and ```jx_vit_base_p16_224-80ecf9dd.pth```) and folder (```/roberta-base```) should be placed under the ```/pretrain_model``` path.
 
-### File Structure
+### 4. File Structure
+Before the code is executed, make sure the file structure is as shown below.
+
 
 ## 🏋️‍️ Fine-tuning
 
