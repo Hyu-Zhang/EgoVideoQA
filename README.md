@@ -31,13 +31,12 @@ We use the EgoVLPv2 model weights, which are pre-trained on the [EgoClip](https:
 ```
 wget -c https://www.cis.jhu.edu/~shraman/EgoVLPv2/ckpts/Pre-trained/EgoVLPv2.pth
 wget https://www.cis.jhu.edu/~shraman/EgoVLPv2/datasets/EgoTaskQA/reasoning_unique_cat.pth
-# timm package
+# ViT from timm package
 wget https://github.com/rwightman/pytorch-image-models/releases/download/v0.1-vitjx/jx_vit_base_p16_224-80ecf9dd.pth
-# huggingface
+# RoBERTa from huggingface
 https://huggingface.co/roberta-base/tree/main
 ```
-
-EgoVLPv2 https://www.cis.jhu.edu/~shraman/EgoVLPv2/ckpts/Pre-trained/EgoVLPv2.pth
+The above files (```EgoVLPv2.pth```, ```reasoning_unique_cat.pth```, and ```jx_vit_base_p16_224-80ecf9dd.pth```) and folder (```/roberta-base```) should be placed under the ```/pretrain_model``` path.
 
 ### File Structure
 
