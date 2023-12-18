@@ -77,10 +77,11 @@ Before the code is executed, make sure the file structure is as shown below.
     └── /roberta-base
 ```
 
-## 🏋️‍️ Fine-tuning
+## 🔧 Fine-tuning
+Modify the target path parameters, including ```writer```, ```--basedir```, ```--model_name```, ```data_dir```, ```meta_dir```, and ```unique_dict``` in the file ```main_end2end.py```, ```metadata_dir```, ```unique_dict```, and ```tokenizer``` in the file ```EgoTaskQA_dataset.py```, and ```self.text_model``` and ```vit_model``` in the file ```/model/video_qa_model_linear_end2end.py```.
 
 ## Evaluation
-## 🔧 Fine-tuned Checkpoints
+## Fine-tuned Checkpoints
  
 | Model | Open | Binary | All | Checkpoint | Log |
 | ------ | ------ | ------ | ------ | ------ | ------ |
