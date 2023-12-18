@@ -24,7 +24,7 @@ tar -zxvf Data.tar.gz && rm Data.tar.gz
 wget https://www.cis.jhu.edu/~shraman/EgoVLPv2/datasets/EgoTaskQA/qa_videos.tgz
 tar -xvzf qa_videos.tgz && rm qa_videos.tgz
 ```
-
+The two folders ```/Data``` and ```/qa_videos``` are placed under the path ```/data```.
 ### Pretrained Weights
 EgoVLPv2 https://www.cis.jhu.edu/~shraman/EgoVLPv2/ckpts/Pre-trained/EgoVLPv2.pth
 
