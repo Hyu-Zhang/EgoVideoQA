@@ -13,7 +13,7 @@ pip install torch-1.12.1+cu113-cp39-cp39-linux_x86_64.whl
 pip install torchvision==0.13.1+cu113 torchaudio==0.12.1 --extra-index-url https://download.pytorch.org/whl/cu113
 pip install -r requirements.txt
 ```
-If you encounter the following error ```ImportError: libGL.so.1: cannot open shared object file: No such file or directory``` during execution , you can resolve it with this command ```apt-get update && apt-get install ffmpeg libsm6 libxext6  -y```. 
+If you encounter the following error ```ImportError: libGL.so.1: cannot open shared object file: No such file or directory``` during execution , you can resolve it with this command ```apt-get update && apt-get install ffmpeg libsm6 libxext6 -y```. 
 
 ### 2. Data Download
 You can get the dataset by following the data processing steps provided in the [EgoTaskQA](https://github.com/Buzz-Beater/EgoTaskQA/blob/main/baselines/README.md) work. Also, you can download our processed data directly by following the commands below.
