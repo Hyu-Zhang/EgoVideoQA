@@ -122,7 +122,7 @@ If our work is helpful to you, please cite our paper.
 ```
 
 ## ✉️ Contact
-Questions and discussions are welcome via `zhang.hy.2019@gmail.com`.
+Questions and discussions are welcome via `XXX`.
 
 ## 🙏 Acknowledgements
 We thank the authors from [EgoTaskQA](https://github.com/Buzz-Beater/EgoTaskQA/tree/main) for releasing the dataset and baselines. Also, we thank the authors from [EgoVLP](https://github.com/showlab/EgoVLP?tab=readme-ov-file) and [EgoVLPv2](https://github.com/facebookresearch/EgoVLPv2/tree/main) for the exploratory research, which is the beginning of our study.
