@@ -118,11 +118,17 @@ We have provided our fine-tuned model checkpoints, as well as the log file gener
 If our work is helpful to you, please cite our paper.
 
 ```
-
+@inproceedings{zhang2024multi,
+  title={Multi-Factor Adaptive Vision Selection for Egocentric Video Question Answering},
+  author={Zhang, Haoyu and Liu, Meng and Liu, Zixin and Song, Xuemeng and Wang, Yaowei and Nie, Liqiang},
+  booktitle={International Conference on Machine Learning},
+  year={2024},
+  organization={PMLR}
+}
 ```
 
 ## ✉️ Contact
-Questions and discussions are welcome via `XXX`.
+Questions and discussions are welcome via `zhang.hy.2019@gmail.com`.
 
 ## 🙏 Acknowledgements
 We thank the authors from [EgoTaskQA](https://github.com/Buzz-Beater/EgoTaskQA/tree/main) for releasing the dataset and baselines. Also, we thank the authors from [EgoVLP](https://github.com/showlab/EgoVLP?tab=readme-ov-file) and [EgoVLPv2](https://github.com/facebookresearch/EgoVLPv2/tree/main) for the exploratory research, which is the beginning of our study.
