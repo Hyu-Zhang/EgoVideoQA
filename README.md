@@ -1,4 +1,4 @@
-<h1 align="center"> <a href=''>Patch Partition, Selection, and Aggregation for<br/> Egocentric Video Question Answering</a></h2>
+<h1 align="center"> <a href=''>Multi-Factor Adaptive Vision Selection for Egocentric Video Question Answering</a></h2>
 
 > **TL;DR:** We unleash an egocentric video question answering model which exhibits strong performance on multiple public datasets.
 
